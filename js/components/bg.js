@@ -4,7 +4,6 @@ const IMG_NUMBER = 3;
 
 function paintImage(imgNumber) {
   const bg = `url(./img/${imgNumber + 1}.jpg) no-repeat center center fixed`;
-  console.log(bg);
   document.body.style.background = `${bg}`;
 }
 
