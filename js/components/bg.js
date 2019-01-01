@@ -3,8 +3,10 @@ const tag = "[background]";
 const IMG_NUMBER = 3;
 
 function paintImage(imgNumber) {
-  const bg = `url(./img/${imgNumber + 1}.jpg) no-repeat center center fixed`;
-  document.body.style.background = `${bg}`;
+  const image = new Image();
+  image.src = `./img/${imgNumber + 1}.jpg`;
+  image.classList.add("bgImage");
+  document.body.appendChild(image);
 }
 
 function getRandom() {
