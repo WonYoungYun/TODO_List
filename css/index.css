@@ -68,6 +68,9 @@ a:active,
 a:focus {
   text-decoration: underline;
 }
+body {
+  background-color: #000;
+}
 #wrap {
   position: relative;
   max-width: 500px;
